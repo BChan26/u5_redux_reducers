@@ -1,5 +1,9 @@
 # Redux Reducers
 
+<img src="https://cdn-images-1.medium.com/max/1600/1*EdiFUfbTNmk_IxFDNqokqg.png" alt="redux" height="400" />
+
+
+
 ## Requirements
 
 - Have `intro to redux` working.
