@@ -2,17 +2,18 @@
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*EdiFUfbTNmk_IxFDNqokqg.png" alt="redux" height="400" />
 
-
-
-## Requirements
-
-- Have `intro to redux` working.
+## Overview
+In this lesson, we'll be learning about Redux Reducers, functions that allow us to break up our application state into manageable sections associated with certain parts of the overall state.
 
 ## Objectives
-
 - Learn how redux reducers work
 - Implement reducers
 
+## Getting Started
+- Have `intro to redux` working.
+- We'll be building off from where we finished last.
+
+___
 ## What Are Reducers?
 
 Reducers are functions that return some type of state. You can think of them as little modules that we can break up our state into instead of having one large object containing every piece of state for our application. Here's an example:
@@ -35,6 +36,8 @@ export default SomeReducer
 ```
 
 As you can see theres quite a bit going on here so let's break it down:
+
+![](https://forum.attainu.com/uploads/default/optimized/1X/764a6fca95c6f0e0783b4efc53877cc09541360f_2_690x209.png)
 
 - We set up some type of initial state, you can either pass this as an argument to our reducer or store it in it's own variable.
 
@@ -150,8 +153,15 @@ In your redux devtools you should now see two new things:
 
 With our state from each reducer inside of them.
 
+We've now successfully set up our store! We'll be moving on to actions and types in the next lesson.
+
+
+![](https://res.cloudinary.com/ahonore42/image/upload/v1615871989/ga/Screen_Shot_2021-03-16_at_12.18.56_AM_k2upar.png)
+
+## Recap
+In this lesson we learned about setting the initial state of our store within our `reducers`. Applications often have multiple reducers to split up different parts of the overall state into manageable sections associate with a particular part of the app. In this case, we set up an `AppReducer` to handle whether or not our main app was loading, and a `TodoReducer` to manage the state of our `todos`.
+
 ## Resources
 
-[Understanding Reducers](https://css-tricks.com/understanding-how-reducers-are-used-in-redux/)
-
-[What Is A Reducer](https://daveceddia.com/what-is-a-reducer/)
+- [Understanding Reducers](https://css-tricks.com/understanding-how-reducers-are-used-in-redux/)
+- [What Is A Reducer](https://daveceddia.com/what-is-a-reducer/)
