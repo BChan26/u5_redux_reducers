@@ -153,7 +153,7 @@ In your redux devtools you should now see two new things:
 
 With our state from each reducer inside of them.
 
-We've now successfully set up our store! We'll be moving on to actions and types in the next lesson.
+We've now successfully set up our store with multiple reducers! We'll be moving on to actions and types in the next lesson.
 
 
 ![](https://res.cloudinary.com/ahonore42/image/upload/v1615871989/ga/Screen_Shot_2021-03-16_at_12.18.56_AM_k2upar.png)
