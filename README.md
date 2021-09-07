@@ -43,7 +43,7 @@ As you can see theres quite a bit going on here so let's break it down:
 
 - We also recieve an action as the second argument for our reducer, this is coming from redux when we wire this reducer to our store.
 
-- The action variable contains two things, a `Type` and an `Action`.
+- The action variable contains two things, a `Type` and an `Payload`.
 
 - We use a switch statement to check what the action type is, dependant on that type we'll perform some kind of state update utilizing the payload from the action. ( We'll set these up later on )
 
