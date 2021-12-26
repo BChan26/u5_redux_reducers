@@ -19,6 +19,11 @@ In this lesson, we'll be learning about Redux Reducers, functions that allow us 
 ___
 ## What Are Reducers?
 
+After building a full CRUD app using the MERN stack, we have seen firsthand how complicated it can be keeping multiple objects in state at once. Especially if we working with additional API's. And passing States between different branches of the Component Hierarchy while putting multiple UseEffects in components only leads to more and more problems. 
+
+React Redux is a library that allows to us to control and maintain multiple states in our components. But rather than having to keep multiple blocks of stately code, we can create a few new files to hold and work with our state. 
+
+
 Reducers are functions that return some type of state. You can think of them as little modules that we can break up our state into instead of having one large object containing every piece of state for our application. Here's an example:
 
 ```js
