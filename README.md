@@ -3,6 +3,9 @@
 <img src="https://cdn-images-1.medium.com/max/1600/1*EdiFUfbTNmk_IxFDNqokqg.png" alt="redux" height="400" />
 
 ## Overview
+
+We just took the first step into React Redux
+
 In this lesson, we'll be learning about Redux Reducers, functions that allow us to break up our application state into manageable sections associated with certain parts of the overall state.
 
 ## Objectives
